@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+h3 {
+  font-size: 1.6em;
+}
+h1 {
+  font-size: 2.2rem;
+}
+p {
+  font-size: 15px;
+}
+#whyUs ul {
+  font-size: 15px;
+}
+#navMenu {
+  background: #0a193d;
+  color: white;
+}
+
+.navbar button {
+  color: white;
+}
+
+#bannerContainer {
+  background: #0a193d;
+  color: white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#navbarTogglerDemo02 {
+  justify-content: end;
+}
+
+.footer {
+  background: #0a193d;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  #geeksForGeeks {
+    margin: 0;
+  }
+}
+@media (min-width: 1200px) {
+  #geeksForGeeks {
+    margin-left: 5rem;
+  }
+  #navbarLinks {
+    margin-right: 5rem;
+  }
+}
+.align-items-center {
+  align-items: right !important;
+}
